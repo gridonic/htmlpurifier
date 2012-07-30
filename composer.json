@@ -1,4 +1,8 @@
 {
+    "name": "spekkionu/htmlpurifier",
+    "description": "HTML Purifier is a standards-compliant HTML filter library written in PHP.",
+    "homepage": "http://htmlpurifier.org/",
+    "type": "library",
     "license": "LGPL-2.0",
     "version": "4.4.0",
     "require": {
