@@ -1,0 +1,13 @@
+{
+    "license": "LGPL-2.0",
+    "version: "4.4.0",
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "autoload": {
+        "psr-0" : {
+          "HTMLPurifier" : "",
+          "HTMLPurifier_": "HTMLPurifier/"
+        }
+    }
+}
