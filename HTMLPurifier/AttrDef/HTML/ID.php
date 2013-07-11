@@ -54,9 +54,10 @@ class HTMLPurifier_AttrDef_HTML_ID extends HTMLPurifier_AttrDef
             $result = true;
         } else {
             if (!ctype_alpha(@$id[0])) return false;
+            $umlauts = 'àáâãäçèéêëìíîïñòóôõöùúûüýÿÀÁÂÃÄÇÈÉÊËÌÍÎÏÑÒÓÔÕÖÙÚÛÜÝ';
             $trim = trim( // primitive style of regexps, I suppose
                 $id,
-                'A..Za..z0..9:-._'
+                'A..Za..z0..9:-._' . $umlauts
               );
             $result = ($trim === '');
         }
